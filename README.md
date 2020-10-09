@@ -1,6 +1,6 @@
-# Web Scraping JavaScript with Python
+# Web Scraping with Python
 
-The code shows how to do web scraping dynamic content pages generated from Javascript using Python.
+The code shows how to do web scraping dynamic content pages generated using Python.
 
 We use as data the Blockchain site to extract stats information and generate a text file.
 
@@ -16,7 +16,7 @@ These instructions get you started on what you need to run the script locally on
 
 What things you need to install the software and how to install them
 
-* Python 3.x
+* Python 3.x (obviously we need that to run the code)
 * Pandas
 * Selenium
 * Time
