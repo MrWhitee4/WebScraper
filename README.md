@@ -10,7 +10,7 @@ Website: https://www.blockchain.com/btc/unconfirmed-transactions
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine.
+These instructions get you started on what you need to run the script locally on your machine.
 
 ## Prerequisites
 
@@ -20,7 +20,7 @@ What things you need to install the software and how to install them
 * Pandas
 * Selenium
 * Time
-* Chrome (you can use another browser)
+* Chrome (you can use another browser) - Firefox is recommended as well
 
 ### Install the following Python libraries:
 
@@ -29,7 +29,7 @@ What things you need to install the software and how to install them
  * **beautfulsoup4**
  * **selenium**
 
-With:
+Install the Python libraries:
 ```
 pip install -r requirements.txt
 ```
