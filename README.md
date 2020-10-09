@@ -15,6 +15,7 @@ What things you need to install the software and how to install them
 * Python 3.x
 * Time
 * BeautifulSoup
+* Request
 * Chrome (you can use another browser)
 
 ### Install the following Python libraries:
