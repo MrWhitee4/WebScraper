@@ -43,7 +43,7 @@ security:
 EOF
 
 service mongod start
-sleep 10
+sleep 5
 
 mongo admin <<'EOF'
 use admin
@@ -51,7 +51,7 @@ rs.initiate()
 exit
 EOF
 
-sleep 10
+sleep 5
 
 echo "Adding admin user"
 mongo admin <<'EOF'
@@ -62,7 +62,7 @@ var user = {
   "pwd" : "admin",
   roles : [
       {
-          "role" : "userAdminAnyDatabase",
+          "role" : "dbAdmin",
           "db" : "admin"
       }
   ]
@@ -71,4 +71,4 @@ db.createUser(user);
 exit
 EOF
 
-echo "Setup Completed"
+echo "Mongo DB successfully installed with an Admin user"
