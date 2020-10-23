@@ -28,4 +28,6 @@ for tr in table:
 		f = open(log_file, "a+")
 		f.write(line + "\n")
 
-	time.sleep(60)
+	while True:
+		os.system("main.py")
+		time.sleep(60)
