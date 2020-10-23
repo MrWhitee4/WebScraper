@@ -6,4 +6,4 @@ pip install pandas
 
 python3 main.py
 
-echo "wWebscraper has been started"
+echo "Webscraper has been started"
